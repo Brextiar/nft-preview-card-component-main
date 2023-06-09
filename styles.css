@@ -1,0 +1,153 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+  }
+  table {
+    border-collapse:collapse;
+    border-spacing:0;
+  }
+  fieldset,img {
+    border:0;
+  }
+  address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+  }
+  ol,ul {
+    list-style:none;
+  }
+  caption,th {
+    text-align:left;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+  }
+  q:before,q:after {
+    content:'';
+  }
+  abbr,acronym { border:0;
+  }
+
+  html {
+    font-family: 'Outfit', sans-serif;;
+  }
+
+  body {
+    align-items: center;
+    background-color: #0d1a2d;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+  }
+
+  .backgroundone {
+    align-items: flex-start;
+    background-color: #0c192c;
+    border-radius: 20px;
+    display: flex;
+    height: 75%;
+    justify-content: center;
+    padding-top: 20px;
+    position: relative;
+    width: 20%;
+  }
+
+  .backgroundtwo {
+    align-items: flex-start;
+    background-color: #0c1729;
+    border-radius: 15px;
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    padding-top: 20px;
+    width: 90%;
+    
+  }
+
+  .card {
+    background-color: #15273f;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 94%;
+    width: 90%;
+  }
+
+  .bigimg {
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%
+  }
+  .big {
+    color: white;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+.description {
+    color: #6a7e99;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 0.7rem;
+}
+
+.valueTime {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.margin {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.eth {
+  color: #01fefa;
+  font-size: 0.7rem;
+}
+
+.daysleft {
+  color: #6a7e99;
+  font-size: 0.7rem;
+}
+
+hr {
+  border: 1px solid #2f4159;
+  margin-top: 5%;
+  width: 90%;
+}
+
+.creator {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.avatar {
+  width: 20%;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.creationof {
+  color: #6a7e99;
+  font-size: 0.7rem;
+}
+
+.name {
+  color: white;
+  font-size: 0.7rem;
+}
